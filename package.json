@@ -1,9 +1,9 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "This repo will is a temporary repo to show examples of the new images upload featureu of Vue2Editor",
   "author": "David Royer <droyer01@gmail.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
