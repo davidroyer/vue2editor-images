@@ -8,11 +8,13 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
-    "deploy": "gh-pages -d dist"
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "gh-pages": "^1.0.0",
-    "vue": "^2.3.3"
+    "vue": "^2.3.3",
+    "vue2-editor": "^2.0.26"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

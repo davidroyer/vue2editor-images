@@ -1,4 +1,4 @@
-# test
+# Vue2Editor Example for Custom Image Uploader
 
 > A Vue.js project
 
